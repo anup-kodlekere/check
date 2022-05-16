@@ -2,6 +2,7 @@ arch:
   - ppc64le
 
 script:
+  - echo "TESTING"
   - cat /etc/os-release
   - cat /proc/cpuinfo
   - cat /proc/meminfo
