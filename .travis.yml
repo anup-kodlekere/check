@@ -2,9 +2,8 @@ arch:
   - ppc64le
 
 script:
-  - echo "TESTING"
-  - cat /etc/os-release
-  - cat /proc/cpuinfo
-  - cat /proc/meminfo
+  - cat /etc/os-releasescdcd
+  - cat /proc/cpuinfocdscd
+  - cat /proc/memcdmcd
   - df -h
-#  - curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+  - curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
