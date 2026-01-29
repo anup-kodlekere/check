@@ -1,6 +1,5 @@
 arch:
   - ppc64le
-  - s390x
 
 script:
   - cat /etc/os-releasescdcd
